@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: auto;
+    background-color: rgba(12,12,12,255);
+    font-family: 'Open Sans', sans-serif;
+}
+.maincontainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 400px;
+    /* border: 1px solid white; */
+}
+h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.contacts {
+    width: 100%;
+    /* border: 1px solid white; */
+    margin-bottom: 40px;
+
+}
+.icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons i {
+    background-color: rgba(184,153,107,255);
+    padding: 5px;
+    border: 5px solid rgba(184,153,107,255);
+    color: rgba(12,12,12,255);
+    border-radius: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.infotext .headtext {
+    color: rgba(184,153,107,255);
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+.infotext {
+    width: 100%;
+    display: flex;
+    align-items: top;
+    flex-wrap: wrap;
+}
+.infotext .address {
+    color: rgba(86,85,86,255);
+    width: 150px;
+    font-size: 12px;
+    text-align: start;
+}
+.infotext .text {
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    font-size: 12px;
+    text-align: start;
+}
+
+input {
+    height: 30px;
+}
+input, textarea {
+    margin: 10px 0;
+    width: 100%;
+    display: block;
+    background-color: rgba(20,20,20,255);
+    border: none;
+    border-radius: 5px;
+    text-indent: 10px;
+    font-size: 10px;
+    color: white;
+}
+.button input {
+    font-weight: bold;
+    background-color: rgba(184,153,107,255);
+    color:rgba(12,12,12,255);
+    border-radius: 5px;
+}
