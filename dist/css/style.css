@@ -73,6 +73,7 @@ input, textarea {
     text-indent: 10px;
     font-size: 10px;
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 .button input {
     font-weight: bold;
